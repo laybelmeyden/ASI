@@ -73,7 +73,9 @@
                 <div class="data1">
                 <p class="p12">{{ $new->data }}</p>
                 </div>
+              <div class="card-image__item">
               <img class="carg" src="storage/{{ $new->img }}">
+              </div>
             </div>
             <div class="card-content card-content1">
             <div class="i1">
