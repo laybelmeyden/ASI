@@ -49,7 +49,7 @@ class MainController extends Controller
     {
 
 
-      return view('pages.newsolo', compact('solo', 'titl', 'meta', 'img', 'keywords'));
+      return view('pages.newsolo', compact('solo'));
     }
     
             public function projectsolo(Pj $solo)
