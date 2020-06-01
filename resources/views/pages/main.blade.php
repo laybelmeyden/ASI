@@ -9,13 +9,13 @@
             <p class="p2">Развитие инфраструктуры инновационной сферы</p>
             </div>
             <div class="col l12 s12 m12 center">
-            <a class="waves-effect waves-light btn btn1">ПОДРОБНЕЕ</a>
+            <a href="/#back222" class="waves-effect waves-light btn btn1">ПОДРОБНЕЕ</a>
             </div>
         </div>
         </div>
       </section>
       
-      <section class="back2">
+      <section class="back2" id="back222">
             <div class="container">
             <div class="row">
             <div class="col l6 m6 s6">

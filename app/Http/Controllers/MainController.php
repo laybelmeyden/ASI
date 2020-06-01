@@ -20,13 +20,13 @@ class MainController extends Controller
         public function contact()
     {
     	
-      return view('pages.contact', compact('allnews', 'event', 'blag', 'titl', 'meta', 'keywords'));
+      return view('pages.contact');
     }
     
         public function about()
     {
     	
-      return view('pages.about', compact('allnews', 'event', 'blag', 'titl', 'meta', 'keywords'));
+      return view('pages.about');
     }
     
         public function newws()
@@ -49,14 +49,14 @@ class MainController extends Controller
     {
 
 
-      return view('pages.newsolo', compact('solo', 'titl', 'meta', 'img', 'keywords'));
+      return view('pages.newsolo', compact('solo'));
     }
     
             public function projectsolo(Pj $solo)
     {
 
 
-      return view('pages.projectsolo', compact('solo', 'titl', 'meta', 'img', 'keywords'));
+      return view('pages.projectsolo', compact('solo'));
     }
     
           public function contacts(Request $request)
