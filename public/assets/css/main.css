@@ -802,6 +802,10 @@ nav {
 }
 
 @media screen and (max-width:992px) {
+    .proj_solo_img,
+    .proj_solo_img {
+        display: none;
+    }
     .con1 {
         border-radius: 0px !important;
         height: auto;

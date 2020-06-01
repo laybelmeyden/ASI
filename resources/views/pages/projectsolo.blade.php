@@ -20,10 +20,10 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col l6 s6 m12">
+          <div class="col l6 s12 m12">
             <p class="p22">{!! $solo->body !!}</p>
           </div>
-          <div class="col l6 s6 m12">
+          <div class="col l6 s12 m12">
 
           </div>
         </div>
